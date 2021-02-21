@@ -1,4 +1,12 @@
-* {
-  background-color: #ccc;
-  color: #55f;
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./assets/fonts/roboto-mono.ttf');
+}
+
+body {
+  color: #aaa;
+  background-color: #222;
+  font-family: 'Roboto Mono';
+  font-size: 2rem;
+  font-weight: normal;
 }
