@@ -28,7 +28,7 @@
   background-color: #c80000;
 }
 .card-wrapper.red .content {
-  background-color: #c80000;
+  background-color: #ff4848;
 }
 
 // Blue
@@ -36,7 +36,7 @@
   background-color: #00009a;
 }
 .card-wrapper.blue .content {
-  background-color: #00009a;
+  background-color: #4f4fff;
 }
 
 // Green
@@ -44,7 +44,8 @@
   background-color: #00ac00;
 }
 .card-wrapper.green .content {
-  background-color: #00ac00;
+  color: #333;
+  background-color: #51ff51;
 }
 
 // Yellow
@@ -53,7 +54,8 @@
   background-color: #e0c200;
 }
 .card-wrapper.yellow .content {
-  background-color: #e0c200;
+  color: #333;
+  background-color: #ffe855;
 }
 
 // Pink
@@ -61,5 +63,5 @@
   background-color: #d000a7;
 }
 .card-wrapper.pink .content {
-  background-color: #d000a7;
+  background-color: #ff62e0;
 }
