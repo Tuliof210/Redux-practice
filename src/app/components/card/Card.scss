@@ -1,0 +1,65 @@
+.card-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.card-wrapper .header {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.card-wrapper .header .title {
+  flex: 1;
+  padding: 5px;
+}
+
+.card-wrapper .content {
+  padding: 20px;
+}
+
+// Card colors
+//=====================================================
+
+// Red
+.card-wrapper.red .header {
+  background-color: #c80000;
+}
+.card-wrapper.red .content {
+  background-color: #c80000;
+}
+
+// Blue
+.card-wrapper.blue .header {
+  background-color: #00009a;
+}
+.card-wrapper.blue .content {
+  background-color: #00009a;
+}
+
+// Green
+.card-wrapper.green .header {
+  background-color: #00ac00;
+}
+.card-wrapper.green .content {
+  background-color: #00ac00;
+}
+
+// Yellow
+.card-wrapper.yellow .header {
+  color: #333;
+  background-color: #e0c200;
+}
+.card-wrapper.yellow .content {
+  background-color: #e0c200;
+}
+
+// Pink
+.card-wrapper.pink .header {
+  background-color: #d000a7;
+}
+.card-wrapper.pink .content {
+  background-color: #d000a7;
+}
