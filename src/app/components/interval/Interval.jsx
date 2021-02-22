@@ -5,7 +5,7 @@ import Card from '../card/Card';
 
 export default props => {
   return (
-    <Card title="Intervalo de números" color="blue">
+    <Card title="Intervalo de Números" color="blue">
       <div className="interval-wrapper">
         <span>
           <strong>Min:</strong>

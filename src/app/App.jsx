@@ -2,7 +2,9 @@ import './App.scss';
 import React from 'react';
 
 import Interval from './components/interval/Interval';
-import Card from './components/card/Card';
+import Avg from './components/average/Average';
+import Sum from './components/sum/Sum';
+import Sweepstake from './components/sweepstake/Sweepstake';
 
 export default props => {
   return (
@@ -12,15 +14,9 @@ export default props => {
         <Interval />
       </div>
       <div className="line">
-        <Card color="pink" title="Card 02">
-          B
-        </Card>
-        <Card color="green" title="Card 03">
-          C
-        </Card>
-        <Card color="yellow" title="Card 04">
-          D
-        </Card>
+        <Avg />
+        <Sum />
+        <Sweepstake />
       </div>
     </div>
   );
