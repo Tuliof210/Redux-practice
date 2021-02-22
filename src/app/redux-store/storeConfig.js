@@ -2,18 +2,20 @@ import { createStore, combineReducers } from 'redux';
 
 const reducers = combineReducers({
   numbers: (state, action) => {
-    console.log({ state, action });
+    // console.log({ state, action });
     return {
-      min: 1,
-      max: 10,
+      min: 7,
+      max: 48,
     };
   },
   names: (state, action) => {
-    console.log({ state, action });
+    // console.log({ state, action });
     return ['Ana', 'Bia', 'Pedro'];
   },
 });
 
-export default function storeConfing() {
+function storeConfing() {
   return createStore(reducers);
 }
+
+export default storeConfing;

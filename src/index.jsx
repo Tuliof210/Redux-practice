@@ -3,6 +3,7 @@ import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 // custom
 import App from './app/App';
+
 // REDUX
 import { Provider } from 'react-redux';
 import configStore from './app/redux-store/storeConfig';
